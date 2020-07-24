@@ -6,8 +6,6 @@ console.log("My first debug");
 
 var age = 8;
 console.log(age);
-/*Я для себя решил что в этом таске имя питомца неизменное
- поэтому использую константу*/
 const name = "Mary";
 console.log(name);
 
@@ -29,11 +27,12 @@ console.log(typeof trueOrFalse);
 
 //Task5
 
-// const student = {
-//   name: "{Ваше имя}",
-//   surname: "{Ваша фамилия}",
-//   isActive: true,
-// };
+const student = {
+  name: "{Ваше имя}",
+  surname: "{Ваша фамилия}",
+  isActive: true,
+};
+console.log(typeof isActive);
 
 //Task#6
 
@@ -41,7 +40,22 @@ let fruits = ["orange ", "lime", "strawberry", "mango", "peach"];
 console.log(fruits);
 let numbers = [0, 1, 2, 3, 4];
 console.log(numbers);
-let students = ["student1", "student2", "student3", "student4", "student5"];
+const student1 = {
+  name: "Ragnar",
+};
+const student2 = {
+  name: "Floki",
+};
+const student3 = {
+  name: "Bjorn",
+};
+const student4 = {
+  name: "Halfdan",
+};
+const student5 = {
+  name: "Ivar",
+};
+let students = [student1, student2, student3, student4, student5];
 console.log(students);
 
 //HARD LEVEL
