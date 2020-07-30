@@ -57,3 +57,12 @@ let giveMeThirdNumber = +prompt("Enter your third number");
 let result =
   giveMeFirstNumber + 10 + giveMeSecondNumber + 10 + giveMeThirdNumber + 10;
 alert(result);
+
+//HARD lvl #2
+let sideA = +prompt("Enter sideA");
+let sideB = +prompt("Enter sideB");
+let sideC = +prompt("Enter sideC");
+let resultFormula =
+  (sideA + sideB > sideC == sideB + sideC > sideA) == sideA + sideC > sideB;
+if (resultFormula == true) alert("Треугольник существует");
+if (resultFormula == false) alert("Треугольник не существует");
