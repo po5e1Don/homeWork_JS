@@ -55,25 +55,25 @@
 // }
 
 //task #5
-let enterOldPass = prompt("Введите Ваш старый пароль");
-let oldPassword = enterOldPass;
-if (enterOldPass === oldPassword) {
-  let enterNewPass = prompt("Введите новый пароль");
-  if (enterNewPass !== oldPassword) {
-    let repiteNewpass = prompt("Повторите ввод нового пароля");
-    if (repiteNewpass === enterNewPass) {
-      console.log("Пароль успешно изменен!");
-    } else {
-      console.log("Ошибка повторного ввода пароля. Пароли не совпадают.");
-    }
-  } else {
-    console.log(
-      "Пароль не должен быть такой же как старый. Придумайте другой пароль"
-    );
-  }
-} else {
-  console.log("Пароль неверный");
-}
+// let enterOldPass = prompt("Введите Ваш старый пароль");
+// let oldPassword = enterOldPass;
+// if (enterOldPass === oldPassword) {
+//   let enterNewPass = prompt("Введите новый пароль");
+//   if (enterNewPass !== oldPassword) {
+//     let repiteNewpass = prompt("Повторите ввод нового пароля");
+//     if (repiteNewpass === enterNewPass) {
+//       console.log("Пароль успешно изменен!");
+//     } else {
+//       console.log("Ошибка повторного ввода пароля. Пароли не совпадают.");
+//     }
+//   } else {
+//     console.log(
+//       "Пароль не должен быть такой же как старый. Придумайте другой пароль"
+//     );
+//   }
+// } else {
+//   console.log("Пароль неверный");
+// }
 
 //task #6
 // let valute1 = "usd";
