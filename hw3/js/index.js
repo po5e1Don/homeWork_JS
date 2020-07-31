@@ -55,44 +55,44 @@
 // }
 
 //task #5
-// let enterOldPass = prompt("Введите старый пароль");
-// let oldPassword = "password";
-// if (enterOldPass === oldPassword) {
-//   let enterNewPass = prompt("введите новый пароль");
-//   if (enterNewPass !== oldPassword) {
-//     let repiteNewpass = prompt("повторите ввод нового пароля");
-//     if (repiteNewpass === enterNewPass) {
-//       console.log("Пароль успешно изменен!");
-//     } else {
-//       console.log("Пароли не совпадают.");
-//     }
-//   } else {
-//     console.log(
-//       "Пароль не должен быть такой же как старый. Придумайте другой пароль"
-//     );
-//   }
-// } else {
-//   console.log("Пароль неверный");
-// }
+let enterOldPass = prompt("Введите Ваш старый пароль");
+let oldPassword = enterOldPass;
+if (enterOldPass === oldPassword) {
+  let enterNewPass = prompt("Введите новый пароль");
+  if (enterNewPass !== oldPassword) {
+    let repiteNewpass = prompt("Повторите ввод нового пароля");
+    if (repiteNewpass === enterNewPass) {
+      console.log("Пароль успешно изменен!");
+    } else {
+      console.log("Ошибка повторного ввода пароля. Пароли не совпадают.");
+    }
+  } else {
+    console.log(
+      "Пароль не должен быть такой же как старый. Придумайте другой пароль"
+    );
+  }
+} else {
+  console.log("Пароль неверный");
+}
 
 //task #6
-let valute1 = "usd";
-let valute2 = "eur";
-let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
+// let valute1 = "usd";
+// let valute2 = "eur";
+// let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
 
-switch (whatIsValute) {
-  case valute1:
-    let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
-    let result1 = uahToUsd / 8;
-    alert(`Это будет ${result1} януковичей`);
-    break;
-  case valute2:
-    let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
-    let result2 = uahToEur / 10;
-    alert(`Это будет ${result2} азаровых`);
-    break;
+// switch (whatIsValute) {
+//   case valute1:
+//     let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
+//     let result1 = uahToUsd / 8;
+//     alert(`Это будет ${result1} януковичей`);
+//     break;
+//   case valute2:
+//     let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
+//     let result2 = uahToEur / 10;
+//     alert(`Это будет ${result2} азаровых`);
+//     break;
 
-  default:
-    alert("Такой валюты не существует");
-    break;
-}
+//   default:
+//     alert("Такой валюты не существует");
+//     break;
+// }
