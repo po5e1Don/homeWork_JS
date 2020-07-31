@@ -49,8 +49,28 @@
 //       }
 //     }
 //     break;
-
 //   default:
 //     alert("User not found");
 //     break;
+// }
+
+//task #5
+// let enterOldPass = prompt("Введите старый пароль");
+// let oldPassword = "password";
+// if (enterOldPass === oldPassword) {
+//   let enterNewPass = prompt("введите новый пароль");
+//   if (enterNewPass !== oldPassword) {
+//     let repiteNewpass = prompt("повторите ввод нового пароля");
+//     if (repiteNewpass === enterNewPass) {
+//       console.log("Пароль успешно изменен!");
+//     } else {
+//       console.log("Пароли не совпадают.");
+//     }
+//   } else {
+//     console.log(
+//       "Пароль не должен быть такой же как старый. Придумайте другой пароль"
+//     );
+//   }
+// } else {
+//   console.log("Пароль неверный");
 // }
