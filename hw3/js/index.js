@@ -74,3 +74,25 @@
 // } else {
 //   console.log("Пароль неверный");
 // }
+
+//task #6
+let valute1 = "usd";
+let valute2 = "eur";
+let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
+
+switch (whatIsValute) {
+  case valute1:
+    let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
+    let result1 = uahToUsd / 8;
+    alert(`Это будет ${result1} януковичей`);
+    break;
+  case valute2:
+    let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
+    let result2 = uahToEur / 10;
+    alert(`Это будет ${result2} азаровых`);
+    break;
+
+  default:
+    alert("Такой валюты не существует");
+    break;
+}
