@@ -76,23 +76,33 @@
 // }
 
 //task #6
-// let valute1 = "usd";
-// let valute2 = "eur";
-// let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
+let valute1 = "usd";
+let valute2 = "eur";
+let whatCurrency = prompt("Укажите интересующую Вас валюту (usd/eur)");
 
-// switch (whatIsValute) {
-//   case valute1:
-//     let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
-//     let result1 = uahToUsd / 8;
-//     alert(`Это будет ${result1} януковичей`);
-//     break;
-//   case valute2:
-//     let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
-//     let result2 = uahToEur / 10;
-//     alert(`Это будет ${result2} азаровых`);
-//     break;
+switch (whatCurrency) {
+  case valute1:
+    let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
+    let result1 = uahToUsd / 8;
+    alert(`Это будет ${result1} януковичей`);
+    break;
+  case valute2:
+    let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
+    let result2 = uahToEur / 10;
+    alert(`Это будет ${result2} азаровых`);
+    break;
 
-//   default:
-//     alert("Такой валюты не существует");
-//     break;
+  default:
+    alert("Такой валюты не существует");
+    break;
+}
+
+//HARD lvl
+// #1
+// let firstNumber = Number.parseInt(prompt("Введите первое число"));
+// let secondNumber = Number.parseInt(prompt("Введите второе число"));
+// function umnozhenie(firstNumber, secondNumber) {
+//   return firstNumber * secondNumber;
 // }
+// let result = umnozhenie(firstNumber, secondNumber);
+// console.log(result);ma
