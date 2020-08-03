@@ -76,33 +76,43 @@
 // }
 
 //task #6
-let valute1 = "usd";
-let valute2 = "eur";
-let whatCurrency = prompt("Укажите интересующую Вас валюту (usd/eur)");
+// let valute1 = "USD";
+// let valute2 = "EUR";
+// let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
 
-switch (whatCurrency) {
-  case valute1:
-    let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
-    let result1 = uahToUsd / 8;
-    alert(`Это будет ${result1} януковичей`);
-    break;
-  case valute2:
-    let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
-    let result2 = uahToEur / 10;
-    alert(`Это будет ${result2} азаровых`);
-    break;
+// switch (whatIsValute.toUpperCase()) {
+//   case valute1:
+//     let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
+//     let result1 = uahToUsd / 8;
+//     alert(`Это будет ${result1} януковичей`);
+//     break;
+//   case valute2:
+//     let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
+//     let result2 = uahToEur / 10;
+//     alert(`Это будет ${result2} азаровых`);
+//     break;
 
-  default:
-    alert("Такой валюты не существует");
-    break;
-}
-
-//HARD lvl
-// #1
-// let firstNumber = Number.parseInt(prompt("Введите первое число"));
-// let secondNumber = Number.parseInt(prompt("Введите второе число"));
-// function umnozhenie(firstNumber, secondNumber) {
-//   return firstNumber * secondNumber;
+//   default:
+//     alert("Такой валюты не существует");
+//     break;
 // }
-// let result = umnozhenie(firstNumber, secondNumber);
-// console.log(result);ma
+
+//HARD lvl #2
+// let userAnswer = Number(
+//   prompt("Сделайте Ваш выбор где 1 - Камень, 2 - Ножницы, 3 - Бумага")
+// );
+// let computerAnswer = Math.ceil(Math.random() * 3);
+// console.log(`Компьютер выбрал ${computerAnswer}`);
+// if (
+//   (userAnswer === 1 && computerAnswer > 1) ||
+//   (userAnswer === 2 && computerAnswer === 3)
+// ) {
+//   console.log("You WIN!");
+// } else if (
+//   (userAnswer === 3 && computerAnswer < 3) ||
+//   (userAnswer === 2 && computerAnswer === 1)
+// ) {
+//   console.log("You DIED");
+// } else {
+//   console.log("Ничья!");
+// }
