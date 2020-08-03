@@ -78,18 +78,18 @@
 //task #6
 // let valute1 = "USD";
 // let valute2 = "EUR";
-// let whatIsValute = prompt("Укажите интересующую Вас валюту (usd/eur)");
+// let whatIsValute = prompt("Укажите интересующую Вас валюту (USD/EUR)");
 
 // switch (whatIsValute.toUpperCase()) {
 //   case valute1:
 //     let uahToUsd = Number(prompt("Сколько гривен вы хотите обменять?"));
 //     let result1 = uahToUsd / 8;
-//     alert(`Это будет ${result1} януковичей`);
+//     alert(`Это будет ${result1.toFixed(2)} януковичей`);
 //     break;
 //   case valute2:
 //     let uahToEur = Number(prompt("Сколько гривен вы хотите обменять?"));
 //     let result2 = uahToEur / 10;
-//     alert(`Это будет ${result2} азаровых`);
+//     alert(`Это будет ${result2.toFixed(2)} азаровых`);
 //     break;
 
 //   default:
@@ -97,7 +97,23 @@
 //     break;
 // }
 
-//HARD lvl #2
+//HARD lvl
+
+//task #1
+// let firstNumber = Number(prompt("Введите первое число"));
+// let secondNumber = Number(prompt("Введите второе число"));
+// let operation = firstNumber * secondNumber;
+// let question = Number(
+//   prompt(`Сколько будет ${firstNumber} умноженное на ${secondNumber} ?`)
+// );
+// if (question === operation) {
+//   console.log("Молодец!");
+// } else {
+//   alert(`Ты не прав! правильный ответ - ${operation}`);
+// }
+// console.log(operation);
+
+//task #2
 // let userAnswer = Number(
 //   prompt("Сделайте Ваш выбор где 1 - Камень, 2 - Ножницы, 3 - Бумага")
 // );
